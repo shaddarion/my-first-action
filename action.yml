@@ -13,4 +13,4 @@ outputs:
 
 runs:
   using: node20
-  main: actions/index.js
+  main: action/index.js
