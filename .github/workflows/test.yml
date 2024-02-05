@@ -17,6 +17,4 @@ jobs:
           person: 'Serhii'
 
       - uses: ./
-        name: Greet Action
-        with:
-          person: 'Serhii'      
+        name: Greet Action     
