@@ -1,3 +1,5 @@
-const person = process.env.INPUT_PERSON;
+const core = require('@actions/core');
 
-console.log(`Hello ${person}`)
+const person = core.getInput('person');
+
+console.log(`Hello ${person}`);

@@ -11,6 +11,8 @@ jobs:
         with:
           node-version: 20
       
+      - run: npm ci
+      
       - uses: ./
         name: Greet Action
         with:
