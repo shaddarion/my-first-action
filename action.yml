@@ -1,12 +1,16 @@
-name: SG First Action
-description: This action greets persons
+name: Increment Git Tag
+description: Increments git tag based on provided version type
 
 inputs:
-  person:
-    description: 'The person to greet'
+  version-type:
+    description: Provide version type [major, minor, patch]
     required: true
-    default: 'Monolisa Octocat'
+    default: pathc
+
+outputs:
+  new-version:
+    description: Incremented version based on the input
 
 runs:
   using: node20
-  main: src/index.js
+  main: actions/index.js
