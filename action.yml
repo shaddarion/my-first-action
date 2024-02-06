@@ -5,7 +5,7 @@ inputs:
   version-type:
     description: Provide version type [major, minor, patch]
     required: true
-    default: pathc
+    default: patch
 
 outputs:
   new-version:
